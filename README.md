@@ -1,5 +1,7 @@
 # ExplicitGuidedWaves
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24503606.svg)](https://doi.org/10.5281/zenodo.24503606)
+
 Explicit finite element solver for transient torsional guided waves in pipes with
 localized defects, in Julia with [Gridap](https://github.com/gridap/Gridap.jl).
 
@@ -102,4 +104,4 @@ See [CHANGELOG.md](CHANGELOG.md) for the changes from v0.1.
 
 ## License and citation
 
-MIT (see [LICENSE](LICENSE)). To cite the code, use [CITATION.cff](CITATION.cff); GitHub shows it as "Cite this repository".
+MIT (see [LICENSE](LICENSE)). Archived in Zenodo: https://doi.org/10.5281/zenodo.24503606. To cite the code, use [CITATION.cff](CITATION.cff); GitHub shows it as "Cite this repository".
