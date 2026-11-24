@@ -1,0 +1,11 @@
+method,case,length_m,parallel,time_s,memory_gb,nrmse_percent,source
+comsol_explicit_dg4,intact_hx20mm,0.5,8 threads,2491,1.79,1.0e-3 to 2.3e-3,Comparacion_FEM_explicito/README.md
+comsol_explicit_dg4,intact_hx10mm,0.5,8 threads,4213,,1.2e-4 to 1.5e-4,Comparacion_FEM_explicito/README.md
+comsol_explicit_dg4,intact_hx20mm,1.0,8 threads,11107,2.08,1.98e-3 to 2.55e-3,Comparacion_FEM_explicito/README.md
+comsol_explicit_dg4,intact_hx20mm,2.0,8 threads,37489,2.23,7.2e-4 to 1.9e-3,Comparacion_FEM_explicito/README.md
+comsol_implicit,notch,1.0,20 cores,23083.8,,,paper v07 notched-pipe section
+bem_hybrid,notch,1.0,8 threads,4216,8.3,,paper v07 notched-pipe section (53 values of s x 80 s)
+bem_full_3d,notch,1.0,8 threads,7764,9.6,,paper v07 notched-pipe section (53 values of s x 147 s)
+bem_hybrid,notch,1.0,8 threads,3238,5.4,,cost mode 23 Nov 2026 (61.1 s per value of s x 53; current BEM code)
+bem_full_3d,notch,1.0,8 threads,4616,9.5,,cost mode 23 Nov 2026 (87.1 s per value of s x 53; current BEM code)
+bem_hybrid,notch,10.0,8 threads,12669,5.8,,cost mode 23 Nov 2026 (61.5 s per value of s x 206)

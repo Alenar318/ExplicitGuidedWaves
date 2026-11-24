@@ -1,0 +1,5 @@
+results/
+*.jls
+*.jls.tmp
+.ipynb_checkpoints/
+notebooks/Manifest.toml

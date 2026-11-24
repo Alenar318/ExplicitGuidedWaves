@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "ExplicitGuidedWaves: explicit finite element solver for transient torsional guided waves in pipes with localized defects"
+version: 0.2.1
+date-released: 2026-11-24
+license: MIT
+authors:
+  - given-names: Alexander
+    family-names: Narváez
+    affiliation: "Mechanical Engineering Department, Technological University of Bolívar, Cartagena, Colombia"
+  - given-names: Éder Lima
+    name-particle: de
+    family-names: Albuquerque
+    affiliation: "Department of Mechanical Engineering, University of Brasília, Brasília, Brazil"
+  - given-names: Lucas Silveira
+    family-names: Campos
+    affiliation: "Department of Mechanical Engineering, Federal University of Espírito Santo, Vitória, Brazil"
+  - given-names: Rene
+    family-names: Quispe Rodriguez
+    affiliation: "Department of Mechanical Engineering, Federal University of Santa Maria, Santa Maria, Brazil"
+keywords:
+  - guided waves
+  - pipes
+  - explicit finite element method
+  - elastodynamics
+  - Gridap
+  - Julia
+abstract: >-
+  Explicit finite element solver (Julia, Gridap) for transient torsional guided waves in
+  pipes with localized defects: quadratic Lagrange hexahedra, row-sum lumped mass and
+  central differences on a half pipe with antisymmetry. It is the open finite element
+  reference of the hybrid axisymmetric/3D boundary element paper, validated against the
+  closed-form T(0,1) solution and the hybrid boundary element method.
